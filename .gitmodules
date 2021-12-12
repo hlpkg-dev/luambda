@@ -1,0 +1,14 @@
+[submodule "docs/themes/docsy"]
+	path = docs/themes/docsy
+	url = https://github.com/google/docsy.git
+[submodule "deps/hlsdk"]
+	path = deps/hlsdk
+	url = https://github.com/ValveSoftware/halflife
+[submodule "deps/metamod"]
+	path = deps/metamod
+	url = https://github.com/Bots-United/metamod-p.git
+	branch = v1.20p36
+[submodule "deps/luajit"]
+	path = deps/luajit
+	url = https://github.com/LuaJIT/LuaJIT.git
+	branch = v2.1
