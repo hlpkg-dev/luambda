@@ -1,0 +1,13 @@
+version: '3'
+services:
+  compiler:
+    build:
+      context: .
+      args:
+        GID: $GID
+        UID: $UID
+        USER: $USER
+    user: $UID:$GID
+    volumes:
+      - ./:/comp
+    entrypoint: "tail -f"
